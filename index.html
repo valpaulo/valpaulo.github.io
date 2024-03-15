@@ -95,15 +95,37 @@
 									margin: auto;
 									width: 50%;
 									padding: 10px;
+									text-align: center;
+								}
+								.logos-group img {
+									height: auto;
+									width: 150px; /* Adjust width as needed */
+									margin: 10px; /* Add spacing between logos */
+									display: inline-block; /* Ensures logos are displayed in a row */
+									vertical-align: middle;
+								}
+								.logos-group img.power-bi {
+									width: 250px; /* Width of Power BI logo slightly bigger */
+									margin: 0 5px;
+								}
+							
+								@media screen and (max-width: 480px) {
+									.logos-group img {
+										height: auto;
+										width: 100px; /* Adjust width for smaller screens */
+									}
 								}
 							</style>
+							
 							<div class="logos-group">
-								<img src="images/power_bi_logo.png" alt="Power BI Logo" style="height: 200px; width: auto; vertical-align: middle;">
-								<img src="images/excel_logo.png" alt="Excel Logo" style="height: 200px; width: auto; vertical-align: middle;"><br><br>
-								<img src="images/python_logo.png" alt="Python Logo" style="height: 200px; width: auto; vertical-align: middle;">
-								<img src="images/sql_logo.png" alt="SQL Logo" style="height: 200px; width: auto; vertical-align: middle;">
-								<img src="images/github_logo.png" alt="GitHub Logo" style="height: 200px; width: auto; vertical-align: middle;"><br>
+								<img src="images/power_bi_logo.png" alt="Power BI Logo" class="power-bi">
+								<img src="images/excel_logo.png" alt="Excel Logo">
+								<br><br>
+								<img src="images/python_logo.png" alt="Python Logo">
+								<img src="images/sql_logo.png" alt="SQL Logo">
+								<img src="images/github_logo.png" alt="GitHub Logo">
 							</div>
+							
 						</section>
 						
 						
