@@ -21,6 +21,8 @@
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
 							<li><a href="#one">Profile</a></li>
+							<li><a href="#onepointone">Skills</a></li>
+							<li><a href="#onepointtwo">Certifications</a></li>
 							<li><a href="#two">Personal Projects</a></li>
 							<li><a href="#three">Get in touch</a></li>
 						</ul>
@@ -79,15 +81,15 @@
 										</li>
 									</ul>
 									<br>
-									<button onclick="window.open('resume/Val Paulo Otoman.pdf', '_blank');"><strong>View Resume</strong></button>
-									<!-- <ul class="actions">
-										<li><a href="profile.html" class="button">More Details</a></li>
-									</ul> -->
+									<button onclick="window.open('resume/Val Paulo Otoman.pdf', '_blank');" style="background-color: #000080;"><strong>View Resume</strong></button>
+
 								</div>
 							</div>
 						</section>
 						
-						<section>
+
+						<!-- One point one-->
+						<section id="onepointone" class="wrapper style2 spotlights">
 							<div class="content">
 								<div class="inner">
 									<h2>Skills</h2>
@@ -104,6 +106,7 @@
 									</ul>
 								</div>
 							</div>
+							
 							<style>
 								.logos-group {
 									margin: auto;
@@ -139,6 +142,7 @@
 										width: 100px; /* Adjust width for smaller screens */
 									}
 								}
+								
 							</style>
 							
 							<div class="logos-group">
@@ -155,8 +159,8 @@
 						
 						
 						
-						
-						<section>
+						<!-- One point two-->
+						<section id="onepointtwo" class="wrapper style2 spotlights">
 							<div class="content">
 								<div class="inner">
 									<h2>Certifications</h2>
@@ -168,7 +172,7 @@
 										<li>Machine Learning Introduction for Everyone - IBM - Coursera</li>
 									</ul>
 									<ul class="actions">
-										<li><a href="certifications.html" class="button">View Certificates</a></li>
+										<li><a href="certifications.html" class="button" style="background-color: #000080;">View Certificates</a></li>
 									</ul>
 								</div>
 							</div>
@@ -191,8 +195,8 @@
 										<li>Developed a Power BI dashboard for visualizing survey data and presenting actionable recommendations.</li>
 										<li>Conducted in-depth demographic analysis and preference insights to tailor strategies to consumer behaviors.</li>
 									</ul>
-									<a href="https://github.com/valpaulo/Coffee-Shop-Entry-Strategy">Github link</a> |
-									<a href="project1.html">View Screenshots</a>
+									<a href="https://github.com/valpaulo/Coffee-Shop-Entry-Strategy" class="button" style="padding: 5 5px; background-color: #8B008B;">Github Link</a> |
+									<a href="project1.html" class="button" style="padding: 5 5px; background-color: #8B008B;">Screenshots</a>
 								</p>
 							</section>
 							<section>
@@ -206,7 +210,7 @@
 										<li>Key responsibilities included data exploration, root cause analysis, dashboard development, and formulation of actionable recommendations.</li>
 										<li>Designed intuitive and interactive dashboards using Power BI to present key findings and actionable insights to stakeholders, facilitating data-driven decision-making processes.</li>
 									</ul>
-									<a href="project2.html">View Screenshots</a>
+									<a href="project2.html" class="button" style="padding: 5 5px; background-color: #8B008B;">Screenshots</a>
 								</p>
 							</section>
 							<!-- <section>
@@ -224,14 +228,25 @@
 										<li>Implemented interactive filters allowing users to compare and study price trends and analyze commodity prices based on selected regions.</li>
 										<li>Enhanced user experience by enabling easy identification of the region and province with the lowest average price for a commodity in 2024.</li>
 									</ul>
-									<a href="https://github.com/valpaulo/PH_Commodities_Prices">Github link</a> |
-									<a href="project4.html">View Screenshots</a>
+									<a href="https://github.com/valpaulo/PH_Commodities_Prices" class="button" style="padding: 5 5px; background-color: #8B008B;">Github link</a> |
+									<a href="project4.html" class="button" style="padding: 5 5px; background-color: #8B008B;">Screenshots</a>
 								</p>
 							</section>
 						</div>
-						<ul class="actions">
-							<li><a href="https://github.com/valpaulo?tab=repositories" class="button">Github Profile</a></li>
-						</ul>
+						
+							<ul class="actions">
+								<li><a href="https://github.com/valpaulo?tab=repositories" class="button github-button">Github Profile</a></li>
+							</ul>
+								<style>
+									.github-button {
+										background-color: #610C9F; 
+									}
+									
+									.github-button:hover {
+										background-color: #8B008B; 
+									}								
+								</style>
+						
 					</div>
 				</section>
 				
@@ -242,29 +257,34 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<div class="split style1">
-									<ul class="contact">
-										<li>
-											<h3>Email</h3>
-											<span>val.otoman@gmail.com</span>
-										</li>
-										<li>
-											<h3>Mobile Phone</h3>
-											<span>+63 956 886 7254</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://www.facebook.com/val.paulotoman" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="https://github.com/valpaulo" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/val-paulo-otoman-80a215276/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
+							<div class="contact-table">
+								<table>
+									<tr>
+										<th>Email</th>
+										<th>Mobile Phone</th>
+										<th>Social</th>
+									</tr>
+									<tr>
+										<td>val.otoman@gmail.com</td>
+										<td>+63 956 886 7254</td>
+										<td>
+											<a href="https://www.facebook.com/val.paulotoman" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+											<a href="https://github.com/valpaulo" class="icon brands fa-github"><span class="label">GitHub</span></a>
+											<a href="https://www.linkedin.com/in/val-paulo-otoman-80a215276/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>
+										</td>
+									</tr>
+								</table>
 							</div>
 						</div>
+						<style>
+							.contact-table a {
+								margin-right: 10px; /* Adjust the spacing as needed */
+							}
+						</style>
+						
+						
+						
 					</section>
-
 			</div>
 
 		<!-- Footer -->
