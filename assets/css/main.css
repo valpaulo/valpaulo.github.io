@@ -163,7 +163,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: bold;
+		font-weight: bold;	
 	}
 
 	em, i {
@@ -1834,7 +1834,7 @@ input, select, textarea {
 		background-color: transparent;
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
-		border-radius: 3em;
+		border-radius: 2em;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -1843,8 +1843,8 @@ input, select, textarea {
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
-		outline: 0;
-		padding: 0 3.75em;
+		outline: 3;
+		padding: 0 2em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
@@ -3739,7 +3739,7 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.75em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
